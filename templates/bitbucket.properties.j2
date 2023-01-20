@@ -31,3 +31,7 @@ setup.sysadmin.password={{ setup.sysadmin_password }}
 setup.sysadmin.displayName={{ setup.sysadmin_displayName }}
 setup.sysadmin.emailAddress={{ setup.sysadmin_emailAddress }}
 {% endif %}
+
+{% for item in bitbucket_properties %}
+{{ item.key }}={{ item.value }}
+{% endfor %}
