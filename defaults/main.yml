@@ -56,3 +56,11 @@ bitbucket_plugins: []  # View molecule/default/groups_vars/all.yml to view a sam
 #   sysadmin_password: password
 #   sysadmin_displayName: Administrator
 #   sysadmin_emailAddress: admin@example.com
+
+bitbucket_properties: []
+## Sample properties configuration:
+# bitbucket_properties:
+#   - key: throttle.resource.scm-hosting.strategy
+#     value: fixed
+#   - key: throttle.resource.scm-hosting.fixed.limit
+#     value: 150
